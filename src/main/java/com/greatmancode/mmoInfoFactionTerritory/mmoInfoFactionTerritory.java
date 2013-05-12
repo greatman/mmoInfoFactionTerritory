@@ -72,7 +72,7 @@ public final class mmoInfoFactionTerritory extends MMOPlugin
 
 		public void onTick()
 		{
-			if (this.tick++ % 100 == 0) {
+			if (this.tick++ % 50 == 0) {
 				Player player = getScreen().getPlayer();
 				FPlayer fPlayer = FPlayers.i.get(player);
 				Faction faction = Board.getFactionAt(new FLocation(player.getLocation()));
