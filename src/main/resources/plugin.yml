@@ -3,8 +3,8 @@ version: ${releaseVersion}.${buildNumber}
 description: Adds a {factionterritory} token to the mmoInfo token list.
 author: Greatman
 website: http://github.com/greatman/mmoInfoFactionTerritory
-main: com.greatmancode.mmoInfoFactionName.mmoInfoFactionTerritory
-depend: [Spout,mmoCore,mmoInfo]
+main: com.greatmancode.mmoInfoFactionTerritory.mmoInfoFactionTerritory
+depend: [Spout,mmoCore,mmoInfo,Factions]
 description: Adds {factionterritory} to the info tokens
 permissions:
   mmo.info.factionterritory:
