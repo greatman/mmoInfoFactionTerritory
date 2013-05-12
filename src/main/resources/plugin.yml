@@ -1,0 +1,12 @@
+name: mmoInfoFactionTerritory
+version: ${releaseVersion}.${buildNumber}
+description: Adds a {factionterritory} token to the mmoInfo token list.
+author: Greatman
+website: http://github.com/greatman/mmoInfoFactionTerritory
+main: com.greatmancode.mmoInfoFactionName.mmoInfoFactionTerritory
+depend: [Spout,mmoCore,mmoInfo]
+description: Adds {factionterritory} to the info tokens
+permissions:
+  mmo.info.factionterritory:
+    description: Allows {factionterritory} to show the current player faction.
+    default: true
